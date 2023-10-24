@@ -1,0 +1,8 @@
+{
+	"BuildId": "17155196",
+	"Modules": 
+	{
+		"VaRest": "UE4Editor-VaRest-0001.dll",
+		"VaRestEditor": "UE4Editor-VaRestEditor-0001.dll"
+	}
+}

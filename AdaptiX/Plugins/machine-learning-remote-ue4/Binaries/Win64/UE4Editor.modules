@@ -1,0 +1,9 @@
+{
+	"BuildId": "17155196",
+	"Modules": 
+	{
+		"MachineLearningBase": "UE4Editor-MachineLearningBase-0001.dll",
+		"MachineLearningRemote": "UE4Editor-MachineLearningRemote-0001.dll",
+		"MLProcess": "UE4Editor-MLProcess-0001.dll"
+	}
+}

@@ -1,0 +1,1 @@
+The server is stored separatelly at the GameRoot/Adaptive/machine-learning-server
