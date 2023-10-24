@@ -1,0 +1,23 @@
+## Setup File for Unreal system
+# #-Sign for comments
+
+StoragePath = C:/AdaptiX		# Storage Path for files
+# Comment next line out to ignore iterating
+#IteratorFile = IteratorFile_doNotEdit	# File in Storage_Path to store an increasing number, which is added to the StoragePath as Sub-Path. Is created if not existent. Has to be defined after Storage_Path
+# The Iterator File equals the last created folder. Before Replay should be set one below the first number to replay
+
+PlayReplay = false			# Defines whether Replay is played
+# If replay:
+    Store_Images = false   		# whether to store image data while replaying
+    High_Res_Images = false		# whether to store the image data in high resolution
+    Store_Headset_Images = false 	# whether to store images data from the headset (independent of Store_Images)
+
+Record_Position_CSV = false     	# whether to store the actor positions in a csv file
+# If Recording:
+    # If set to <= 0 : Store on every tick instead of with a timer
+    Storage_Frequency = -1   		# Frequency in which to store position data
+    # If set to true, recording will not start automatically and needs to be called manually
+    Recording_Start_Manually = true
+
+
+

@@ -1,0 +1,15 @@
+The Unreal project is in a state where the project works as a "sandbox" where you can try out the different control modes "Continuous", "Threshold" and "Classic". 
+
+To use the project in VR, simply connect an Oculus Quest / Quest 2 to the PC via Oculus Link. If no Quest is connected, the project can be tested similar to a first-person shooter on the PC.
+
+Controls:
+
+						|Quest |Computer |
+Move | --- |WASD |
+Camera | --- |Mouse movement |		
+Interaction with the virtual screen |Trigger |Left mouse button | -- Scrolling like on a touch screen. If on the computer the screen does not react, move a little closer. 
+Control along visualizations |Analog Stick R |IJKL | -- Precise control depending on "Continuous", "Threshold" and "Classic", see master thesis
+Switch between modes/suggestions |A button |R button |
+
+To put the project into the "study mode" where the study was done, the variable "Sandbox" can be set to false in BP_GM_Study. 
+To connect to the server, XAMPP must be set up and started on the PC, and the "Online" variable in BP_GM_Study must be set to true.

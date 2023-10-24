@@ -1,0 +1,82 @@
+{
+    "dataset": {
+        "dataset_folder": "/home/felix/Desktop/Datasets/",
+        "data_base": "Blocktests",
+        "image_prefix": "above_",
+        "ignore_replays": [],
+        "box_radius": 30,
+        "test_split": 0.1,
+        "batch_size": 4,
+        "use_sample_weights": true,
+        "usedDatapointLoader": "loadDatapoint_onlySD",
+        "T_camera_in_gripper": [
+            [
+                0,
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                -1,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                1
+            ]
+        ],
+        "shuffle_seed": null,
+        "deterministicMapping": false
+    },
+    "model": {
+        "n_input_channels": 4,
+        "conv_layers": [
+            [
+                5,
+                7
+            ],
+            [
+                5,
+                3
+            ],
+            [
+                5,
+                3
+            ],
+            [
+                5,
+                3
+            ],
+            [
+                5,
+                3
+            ]
+        ],
+        "n_used_Moments": 4,
+        "dense_layers": [
+            32,
+            64
+        ],
+        "num_output_paths": 7,
+        "epsilon": 0.01,
+        "model_name": "statustreffen_000"
+    },
+    "training": {
+        "loss_fn": "mahalanobis",
+        "nEpochs": 13,
+        "metrics": [
+            "mahalanobis",
+            "log_likelyhood"
+        ]
+    }
+}
