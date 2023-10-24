@@ -1,0 +1,682 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Breakfast2.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{04CF0F98-4500-4B6F-A6DF-D9A45144397A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Breakfast2.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Breakfast2Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Breakfast2.png" />
+    <None Include="..\..\README.md" />
+    <None Include="..\..\Setup Recording.txt" />
+    <None Include="..\..\Setup Sandbox-or-Study.txt" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{D205FEDB-B3BA-4C24-AD52-118BE40586D3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\steamvr_ue_editor_app.json">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{C75D662A-473F-46A5-8E64-93B3248C2711}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <Filter Include="Config\IOS">
+      <UniqueIdentifier>{90C0D04F-F480-4E74-8D0C-529D0848FA2F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\IOS\IOSEngine.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <Filter Include="Config\Linux">
+      <UniqueIdentifier>{3E958A2B-87D6-499B-BCF5-37475284601E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Linux\LinuxEngine.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{22F2D47F-6645-4FB3-9D05-F03370B68EBD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\PS4">
+      <UniqueIdentifier>{61BE6932-7407-4A2B-9A8C-162C8FE1A84B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\PS4\PS4Engine.ini">
+      <Filter>Config\PS4</Filter>
+    </None>
+    <Filter Include="Config\SteamVRBindings">
+      <UniqueIdentifier>{F3CC8E9A-76B3-4ABF-8295-4C071AF05C96}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\SteamVRBindings\gamepad.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\holographic_controller.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\hpmotioncontroller.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\indexhmd.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\knuckles.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\oculus_touch.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\rift.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\steamvr_manifest.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_controller.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_cosmos_controller.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_pro.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_camera.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_chest.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_handed.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_keyboard.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_left_elbow.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_left_foot.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_left_knee.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_left_shoulder.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_right_elbow.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_right_foot.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_right_knee.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_right_shoulder.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_waist.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <Filter Include="Config\Switch">
+      <UniqueIdentifier>{4C2BF8F6-FCD5-46F5-A34A-1E7964A52033}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Switch\SwitchEngine.ini">
+      <Filter>Config\Switch</Filter>
+    </None>
+    <Filter Include="Config\Windows">
+      <UniqueIdentifier>{30AC8B8E-2AB4-4787-8FD8-71D9D9C99F58}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\WindowsEngine.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <Filter Include="Config\XboxOne">
+      <UniqueIdentifier>{88063A8D-889A-4B34-8A7A-B563ECCD6D60}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
+      <Filter>Config\XboxOne</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{F5AB17CC-9B59-4B5F-9A7E-08C8884840CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\machine-learning-remote-ue4">
+      <UniqueIdentifier>{68A43E67-B026-4870-9F96-5AB18D5F44CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\machine-learning-remote-ue4\Source">
+      <UniqueIdentifier>{1B40525D-387E-455E-B855-18027570DDE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\machine-learning-remote-ue4\Source\MachineLearningBase">
+      <UniqueIdentifier>{F63B3203-A6FE-48AC-AC5D-2F09CF2D2720}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\machine-learning-remote-ue4\Source\MachineLearningBase\MachineLearningBase.Build.cs">
+      <Filter>Plugins\machine-learning-remote-ue4\Source\MachineLearningBase</Filter>
+    </None>
+    <Filter Include="Plugins\machine-learning-remote-ue4\Source\MachineLearningBase\Private">
+      <UniqueIdentifier>{B68B3302-5BC8-4544-916E-28DEEE8D9C6C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\machine-learning-remote-ue4\Source\MachineLearningBase\Private\MachineLearningBase.cpp">
+      <Filter>Plugins\machine-learning-remote-ue4\Source\MachineLearningBase\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\machine-learning-remote-ue4\Source\MachineLearningBase\Private\MachineLearningBaseComponent.cpp">
+      <Filter>Plugins\machine-learning-remote-ue4\Source\MachineLearningBase\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\machine-learning-remote-ue4\Source\MachineLearningBase\Public">
+      <UniqueIdentifier>{9684BFCC-4D7B-45E5-901A-51865BCBD7D2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\machine-learning-remote-ue4\Source\MachineLearningBase\Public\MachineLearningBase.h">
+      <Filter>Plugins\machine-learning-remote-ue4\Source\MachineLearningBase\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\machine-learning-remote-ue4\Source\MachineLearningBase\Public\MachineLearningBaseComponent.h">
+      <Filter>Plugins\machine-learning-remote-ue4\Source\MachineLearningBase\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\machine-learning-remote-ue4\MachineLearningRemote.uplugin">
+      <Filter>Plugins\machine-learning-remote-ue4</Filter>
+    </None>
+    <Filter Include="Plugins\machine-learning-remote-ue4\Resources">
+      <UniqueIdentifier>{BCEF9EA8-60CC-4671-A048-09980FB49AFA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\machine-learning-remote-ue4\Resources\Icon128.png">
+      <Filter>Plugins\machine-learning-remote-ue4\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\socketio-client-ue4">
+      <UniqueIdentifier>{E4EBDC71-79F9-4A6D-9880-73CE56A5F3B3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\socketio-client-ue4\SocketIOClient.uplugin">
+      <Filter>Plugins\socketio-client-ue4</Filter>
+    </None>
+    <Filter Include="Plugins\socketio-client-ue4\Config">
+      <UniqueIdentifier>{E2CB9C74-3E3D-421D-BFE6-AD00C2E86BE2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\socketio-client-ue4\Config\FilterPlugin.ini">
+      <Filter>Plugins\socketio-client-ue4\Config</Filter>
+    </None>
+    <Filter Include="Plugins\socketio-client-ue4\Resources">
+      <UniqueIdentifier>{B2B006ED-0D13-44B5-AE08-5B9A2FC06A1E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\socketio-client-ue4\Resources\Icon128.png">
+      <Filter>Plugins\socketio-client-ue4\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\UE4Duino">
+      <UniqueIdentifier>{DF265F5A-4202-48A9-8BA3-E0680054D014}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UE4Duino\UE4Duino.uplugin">
+      <Filter>Plugins\UE4Duino</Filter>
+    </None>
+    <Filter Include="Plugins\UE4Duino\Resources">
+      <UniqueIdentifier>{29530BEC-0F48-4F6B-A919-F885DC14B6E8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UE4Duino\Resources\Icon128.png">
+      <Filter>Plugins\UE4Duino\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\UE4Duino\Resources\Logo.ai">
+      <Filter>Plugins\UE4Duino\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\VaRest-4.26">
+      <UniqueIdentifier>{43960791-D4BD-4195-99E4-A1367AD53000}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VaRest-4.26\VaRest.uplugin">
+      <Filter>Plugins\VaRest-4.26</Filter>
+    </None>
+    <Filter Include="Plugins\VaRest-4.26\Config">
+      <UniqueIdentifier>{929A4790-C68E-4D86-80DF-6BD8DD64F628}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VaRest-4.26\Config\BaseVaRest.ini">
+      <Filter>Plugins\VaRest-4.26\Config</Filter>
+    </None>
+    <None Include="..\..\Plugins\VaRest-4.26\Config\DefaultVaRest.ini">
+      <Filter>Plugins\VaRest-4.26\Config</Filter>
+    </None>
+    <None Include="..\..\Plugins\VaRest-4.26\Config\FilterPlugin.ini">
+      <Filter>Plugins\VaRest-4.26\Config</Filter>
+    </None>
+    <Filter Include="Plugins\VaRest-4.26\Resources">
+      <UniqueIdentifier>{FC6E431E-C782-438E-B5EC-685E1777DCDB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VaRest-4.26\Resources\Icon128.png">
+      <Filter>Plugins\VaRest-4.26\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\machine-learning-remote-ue4\Source\MachineLearningRemote">
+      <UniqueIdentifier>{65A91C43-C392-417C-891D-0FBCF6F90C13}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\machine-learning-remote-ue4\Source\MachineLearningRemote\MachineLearningRemote.Build.cs">
+      <Filter>Plugins\machine-learning-remote-ue4\Source\MachineLearningRemote</Filter>
+    </None>
+    <Filter Include="Plugins\machine-learning-remote-ue4\Source\MachineLearningRemote\Private">
+      <UniqueIdentifier>{FDB1486E-65FC-40F1-BD92-2969896A10AE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\machine-learning-remote-ue4\Source\MachineLearningRemote\Private\MachineLearningRemote.cpp">
+      <Filter>Plugins\machine-learning-remote-ue4\Source\MachineLearningRemote\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\machine-learning-remote-ue4\Source\MachineLearningRemote\Private\MachineLearningRemoteComponent.cpp">
+      <Filter>Plugins\machine-learning-remote-ue4\Source\MachineLearningRemote\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\machine-learning-remote-ue4\Source\MachineLearningRemote\Public">
+      <UniqueIdentifier>{8015AA65-CA4A-417D-ADD1-BCA30AD0BBF2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\machine-learning-remote-ue4\Source\MachineLearningRemote\Public\MachineLearningRemote.h">
+      <Filter>Plugins\machine-learning-remote-ue4\Source\MachineLearningRemote\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\machine-learning-remote-ue4\Source\MachineLearningRemote\Public\MachineLearningRemoteComponent.h">
+      <Filter>Plugins\machine-learning-remote-ue4\Source\MachineLearningRemote\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\machine-learning-remote-ue4\Source\MLProcess">
+      <UniqueIdentifier>{85713831-5EA0-4C7F-956B-F5B33DBF4D75}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\machine-learning-remote-ue4\Source\MLProcess\MLProcess.Build.cs">
+      <Filter>Plugins\machine-learning-remote-ue4\Source\MLProcess</Filter>
+    </None>
+    <Filter Include="Plugins\machine-learning-remote-ue4\Source\MLProcess\Private">
+      <UniqueIdentifier>{D731C210-3A2C-49B5-9532-22CE22C6AE28}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\machine-learning-remote-ue4\Source\MLProcess\Private\MLProcess.cpp">
+      <Filter>Plugins\machine-learning-remote-ue4\Source\MLProcess\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\machine-learning-remote-ue4\Source\MLProcess\Private\MLProcessModule.cpp">
+      <Filter>Plugins\machine-learning-remote-ue4\Source\MLProcess\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\machine-learning-remote-ue4\Source\MLProcess\Public">
+      <UniqueIdentifier>{15B17AD8-F972-4086-80ED-C54DA2A619A6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\machine-learning-remote-ue4\Source\MLProcess\Public\MLProcess.h">
+      <Filter>Plugins\machine-learning-remote-ue4\Source\MLProcess\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\machine-learning-remote-ue4\Source\MLProcess\Public\MLProcessModule.h">
+      <Filter>Plugins\machine-learning-remote-ue4\Source\MLProcess\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\socketio-client-ue4\Source">
+      <UniqueIdentifier>{B47F9EBD-EB79-48EB-B6CA-567AA88D37C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\socketio-client-ue4\Source\CoreUtility">
+      <UniqueIdentifier>{689F1DD6-F306-47B1-A4A8-8A9AC9532F6B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\CoreUtility.Build.cs">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility</Filter>
+    </None>
+    <Filter Include="Plugins\socketio-client-ue4\Source\CoreUtility\Private">
+      <UniqueIdentifier>{12041137-B4CC-4B30-9436-6ECF9553C990}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Private\CUBlueprintLibrary.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Private\CUFileComponent.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Private\CULambdaRunnable.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Private\CUMeasureTimer.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Private\CUOpusCoder.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Private\FCoreUtility.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\socketio-client-ue4\Source\CoreUtility\Public">
+      <UniqueIdentifier>{0BA7508B-12B1-430C-98E8-EE2A519E76AE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Public\CUBlueprintLibrary.h">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Public\CUFileComponent.h">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Public\CULambdaRunnable.h">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Public\CUMeasureTimer.h">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Public\CUOpusCoder.h">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Public\ICoreUtility.h">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SIOJEditorPlugin">
+      <UniqueIdentifier>{BE514BCD-2D43-4671-81B9-5FA4E39DD36A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\socketio-client-ue4\Source\SIOJEditorPlugin\SIOJEditorPlugin.Build.cs">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJEditorPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SIOJEditorPlugin\Private">
+      <UniqueIdentifier>{CE0F168C-D40E-4CA0-AB45-9EDC95849F03}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SIOJEditorPlugin\Private\SIOJEditorPlugin.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJEditorPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SIOJEditorPlugin\Private\SIOJ_BreakJson.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJEditorPlugin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SIOJEditorPlugin\Public">
+      <UniqueIdentifier>{92230D11-6E8B-4018-B683-B131F4A6E304}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SIOJEditorPlugin\Public\SIOJEditorPlugin.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJEditorPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SIOJEditorPlugin\Public\SIOJ_BreakJson.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJEditorPlugin\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SIOJson">
+      <UniqueIdentifier>{8FE8CA0D-0B9A-48C5-8F3E-E427C679B287}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\SIOJson.Build.cs">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson</Filter>
+    </None>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SIOJson\Private">
+      <UniqueIdentifier>{83B39799-BEDE-4388-BA9A-BD60BD6F7807}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Private\SIOJConvert.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Private\SIOJLibrary.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Private\SIOJRequestJSON.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Private\SIOJson.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Private\SIOJsonObject.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Private\SIOJsonValue.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SIOJson\Public">
+      <UniqueIdentifier>{20D2AE03-5872-49A9-B4B2-5949A87C5094}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Public\ISIOJson.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Public\SIOJConvert.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Public\SIOJLibrary.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Public\SIOJRequestJSON.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Public\SIOJsonObject.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Public\SIOJsonValue.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Public\SIOJTypes.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SocketIOClient">
+      <UniqueIdentifier>{10391B4B-A1B5-4BE2-84EE-B35F19C51CE7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\SocketIOClient.Build.cs">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient</Filter>
+    </None>
+    <None Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\SocketIOClient_APL.xml">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient</Filter>
+    </None>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SocketIOClient\Private">
+      <UniqueIdentifier>{CBC0355E-E5F1-4494-A19C-105D586538FB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\Private\SIOMessageConvert.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\Private\SocketIOClient.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\Private\SocketIOClientComponent.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\Private\SocketIOFunctionLibrary.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\Private\SocketIONative.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SocketIOClient\Public">
+      <UniqueIdentifier>{B5A4C1CF-6B1F-4898-9C70-7942B924D01C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\Public\SIOMessageConvert.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\Public\SocketIOClient.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\Public\SocketIOClientComponent.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\Public\SocketIOFunctionLibrary.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\Public\SocketIONative.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SocketIOLib">
+      <UniqueIdentifier>{CAD21D06-3E67-43DC-81CA-2CFEAC4C8C34}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\SocketIOLib.Build.cs">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib</Filter>
+    </None>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SocketIOLib\Private">
+      <UniqueIdentifier>{87EB2AF9-6474-41BC-A480-1756B62C4847}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\Private\sio_client.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\Private\sio_socket.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\Private\SocketIOLib.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SocketIOLib\Private\internal">
+      <UniqueIdentifier>{A406FC35-3D10-4EA7-8A59-5FC0CD0027EE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\Private\internal\sio_client_impl.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib\Private\internal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\Private\internal\sio_client_impl.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib\Private\internal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\Private\internal\sio_packet.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib\Private\internal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\Private\internal\sio_packet.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib\Private\internal</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SocketIOLib\Public">
+      <UniqueIdentifier>{C189619E-7B3F-48AE-AA7B-C85A3A1A7C05}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\Public\sio_client.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\Public\sio_message.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\Public\sio_socket.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\Public\SocketIOLib.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UE4Duino\Source">
+      <UniqueIdentifier>{91A2D490-5125-48BF-857E-68D449F2E3C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UE4Duino\Source\UE4Duino">
+      <UniqueIdentifier>{EFEEC92D-161A-4BDD-B7EC-6DDE494A7F8E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UE4Duino\Source\UE4Duino\UE4Duino.Build.cs">
+      <Filter>Plugins\UE4Duino\Source\UE4Duino</Filter>
+    </None>
+    <Filter Include="Plugins\UE4Duino\Source\UE4Duino\Private">
+      <UniqueIdentifier>{B7B3F6C2-5CE9-414A-BBB2-7E79CA3EE847}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UE4Duino\Source\UE4Duino\Private\Serial.cpp">
+      <Filter>Plugins\UE4Duino\Source\UE4Duino\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UE4Duino\Source\UE4Duino\Private\UE4DuinoModule.cpp">
+      <Filter>Plugins\UE4Duino\Source\UE4Duino\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UE4Duino\Source\UE4Duino\Public">
+      <UniqueIdentifier>{77415BE5-CBCE-4F55-B8F5-C2BAB50B8495}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UE4Duino\Source\UE4Duino\Public\Serial.h">
+      <Filter>Plugins\UE4Duino\Source\UE4Duino\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UE4Duino\Source\UE4Duino\Public\UE4DuinoModule.h">
+      <Filter>Plugins\UE4Duino\Source\UE4Duino\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VaRest-4.26\Source">
+      <UniqueIdentifier>{A30A0087-11E4-46EB-BAE1-63E8EB679871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VaRest-4.26\Source\VaRest">
+      <UniqueIdentifier>{D2AC3B49-5636-4DA9-A2D8-8625D53775F8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VaRest-4.26\Source\VaRest\VaRest.Build.cs">
+      <Filter>Plugins\VaRest-4.26\Source\VaRest</Filter>
+    </None>
+    <Filter Include="Plugins\VaRest-4.26\Source\VaRest\Private">
+      <UniqueIdentifier>{313300B5-E23D-4A72-8428-20D1C78E16C8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VaRest-4.26\Source\VaRest\Private\VaRest.cpp">
+      <Filter>Plugins\VaRest-4.26\Source\VaRest\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VaRest-4.26\Source\VaRest\Private\VaRestJsonObject.cpp">
+      <Filter>Plugins\VaRest-4.26\Source\VaRest\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VaRest-4.26\Source\VaRest\Private\VaRestJsonParser.cpp">
+      <Filter>Plugins\VaRest-4.26\Source\VaRest\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VaRest-4.26\Source\VaRest\Private\VaRestJsonParser.h">
+      <Filter>Plugins\VaRest-4.26\Source\VaRest\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VaRest-4.26\Source\VaRest\Private\VaRestJsonValue.cpp">
+      <Filter>Plugins\VaRest-4.26\Source\VaRest\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VaRest-4.26\Source\VaRest\Private\VaRestLibrary.cpp">
+      <Filter>Plugins\VaRest-4.26\Source\VaRest\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VaRest-4.26\Source\VaRest\Private\VaRestRequestJSON.cpp">
+      <Filter>Plugins\VaRest-4.26\Source\VaRest\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VaRest-4.26\Source\VaRest\Private\VaRestSettings.cpp">
+      <Filter>Plugins\VaRest-4.26\Source\VaRest\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VaRest-4.26\Source\VaRest\Private\VaRestSubsystem.cpp">
+      <Filter>Plugins\VaRest-4.26\Source\VaRest\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VaRest-4.26\Source\VaRest\Public">
+      <UniqueIdentifier>{D4AD336A-EE38-47CF-889F-EFB3C4395F02}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VaRest-4.26\Source\VaRest\Public\VaRest.h">
+      <Filter>Plugins\VaRest-4.26\Source\VaRest\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VaRest-4.26\Source\VaRest\Public\VaRestDefines.h">
+      <Filter>Plugins\VaRest-4.26\Source\VaRest\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VaRest-4.26\Source\VaRest\Public\VaRestJsonObject.h">
+      <Filter>Plugins\VaRest-4.26\Source\VaRest\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VaRest-4.26\Source\VaRest\Public\VaRestJsonValue.h">
+      <Filter>Plugins\VaRest-4.26\Source\VaRest\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VaRest-4.26\Source\VaRest\Public\VaRestLibrary.h">
+      <Filter>Plugins\VaRest-4.26\Source\VaRest\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VaRest-4.26\Source\VaRest\Public\VaRestRequestJSON.h">
+      <Filter>Plugins\VaRest-4.26\Source\VaRest\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VaRest-4.26\Source\VaRest\Public\VaRestSettings.h">
+      <Filter>Plugins\VaRest-4.26\Source\VaRest\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VaRest-4.26\Source\VaRest\Public\VaRestSubsystem.h">
+      <Filter>Plugins\VaRest-4.26\Source\VaRest\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VaRest-4.26\Source\VaRest\Public\VaRestTypes.h">
+      <Filter>Plugins\VaRest-4.26\Source\VaRest\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VaRest-4.26\Source\VaRestEditor">
+      <UniqueIdentifier>{47993E61-DC0C-4C4F-A5FB-6FD7B4D91999}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VaRest-4.26\Source\VaRestEditor\VaRestEditor.Build.cs">
+      <Filter>Plugins\VaRest-4.26\Source\VaRestEditor</Filter>
+    </None>
+    <Filter Include="Plugins\VaRest-4.26\Source\VaRestEditor\Private">
+      <UniqueIdentifier>{F6479522-5151-44C2-95F4-79C9A23F6B49}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VaRest-4.26\Source\VaRestEditor\Private\VaRestEditor.cpp">
+      <Filter>Plugins\VaRest-4.26\Source\VaRestEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VaRest-4.26\Source\VaRestEditor\Private\VaRest_BreakJson.cpp">
+      <Filter>Plugins\VaRest-4.26\Source\VaRestEditor\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VaRest-4.26\Source\VaRestEditor\Public">
+      <UniqueIdentifier>{C36D2B7E-6AE3-4806-890C-C9D635D46B67}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VaRest-4.26\Source\VaRestEditor\Public\VaRestEditor.h">
+      <Filter>Plugins\VaRest-4.26\Source\VaRestEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VaRest-4.26\Source\VaRestEditor\Public\VaRest_BreakJson.h">
+      <Filter>Plugins\VaRest-4.26\Source\VaRestEditor\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\Breakfast2">
+      <UniqueIdentifier>{83BF8541-59E8-44D3-8459-8B55DBE8E78E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Breakfast2\Breakfast2.Build.cs">
+      <Filter>Source\Breakfast2</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Breakfast2\Breakfast2.cpp">
+      <Filter>Source\Breakfast2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Breakfast2\Breakfast2.h">
+      <Filter>Source\Breakfast2</Filter>
+    </ClInclude>
+    <Filter Include="Source\Breakfast2\Private">
+      <UniqueIdentifier>{6004BDF9-213E-4AB0-81DE-1E6906AED311}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Breakfast2\Private\Adaptive.cpp">
+      <Filter>Source\Breakfast2\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Breakfast2\Private\Storage.cpp">
+      <Filter>Source\Breakfast2\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Breakfast2\Public">
+      <UniqueIdentifier>{0624BB9C-B9FE-4868-82E8-2585CF12330D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Breakfast2\Public\Adaptive.h">
+      <Filter>Source\Breakfast2\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Breakfast2\Public\Storage.h">
+      <Filter>Source\Breakfast2\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

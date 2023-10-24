@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Breakfast2",
+			"Path": "C:\\Users\\Max\\Desktop\\dof-adaptiv\\Source\\Breakfast2.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Breakfast2Editor",
+			"Path": "C:\\Users\\Max\\Desktop\\dof-adaptiv\\Source\\Breakfast2Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
