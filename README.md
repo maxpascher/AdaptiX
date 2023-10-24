@@ -1,7 +1,8 @@
 # AdaptiX – A Transitional XR Framework for Development and Evaluation of Shared Control Applications in Assistive Robotics
 
 <aside>
-💡 The file "Jaco_SkeletalMesh.zip" in "AdaptiX\Content\Blueprints\BP_JacoArm\JacoResources" has to be de-zipped and put into "AdaptiX\Content\Blueprints\BP_JacoArm\JacoResources" as "Jaco_SkeletalMesh.uasset"
+💡 The file "Jaco_SkeletalMesh.zip" in "AdaptiX\Content\Blueprints\BP_JacoArm\JacoResources" has to be de-zipped and put into "AdaptiX\Content\Blueprints\BP_JacoArm\JacoResources" as "Jaco_SkeletalMesh.uasset".
+    
 The previous project name, "Breakfast2", is still shown in some figures.
 
 </aside>
@@ -16,7 +17,7 @@ TBA
 
 <aside>
 💡 Compilation errors may occur, caused by the bson header files.
-A fatal error can occur that the files cannot be found. This has been fixed in the branch whs-branch-twin-ros by moving the folder with the header files to a folder found by the Unreal Engine and specifying the path to the header files directly.
+A fatal error can occur that the files cannot be found. This has been fixed in the branch  by moving the folder with the header files to a folder found by the Unreal Engine and specifying the path to the header files directly.
 
 </aside>
 
