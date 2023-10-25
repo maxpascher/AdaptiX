@@ -11,7 +11,7 @@ The previous project name, "Breakfast2", is still shown in some figures.
 
 **Research Article**
 
-TBA
+Preprint: [https://doi.org/10.48550/arXiv.2310.15887](https://doi.org/10.48550/arXiv.2310.15887)
 
 **Git repository**
 
