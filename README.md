@@ -13,6 +13,28 @@ The previous project name, "Breakfast2", is still shown in some figures.
 
 Preprint: [https://doi.org/10.48550/arXiv.2310.15887](https://doi.org/10.48550/arXiv.2310.15887)
 
+How to cite:
+```
+@article{Pascher.2024adaptix,
+title = {{AdaptiX – A Transitional XR Framework for Development and Evaluation of Shared Control Applications in Assistive Robotics}},
+author = {Max Pascher and Felix Ferdinand Goldau and Kirill Kronhardt and Udo Frese and Jens Gerken},
+doi = {},
+url = {},
+issn = {2573-0142},
+year = {2024},
+issue_date = {June 2024},
+journal = {Proc. ACM Hum.-Comput. Interact.},
+issn = {2573-0142},
+volume = {8},
+number = {EICS},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+abstract = {With the ongoing efforts to empower people with mobility impairments and the increase in technological acceptance by the general public, assistive technologies, such as collaborative robotic arms, are gaining popularity. Yet, their widespread success is limited by usability issues, specifically the disparity between user input and software control along the autonomy continuum. To address this, shared control concepts provide opportunities to combine the targeted increase of user autonomy with a certain level of computer assistance. This paper presents the free and open-source AdaptiX XR framework for developing and evaluating shared control applications in a high-resolution simulation environment. The initial framework consists of a simulated robotic arm with an example scenario in Virtual Reality (VR), multiple standard control interfaces, and a specialized recording/replay system. AdaptiX can easily be extended for specific research needs, allowing Human-Robot Interaction (HRI) researchers to rapidly design and test novel interaction methods, intervention strategies, and multi-modal feedback techniques, without requiring an actual physical robotic arm during the early phases of ideation, prototyping, and evaluation. Also, a Robot Operating System (ROS) integration enables the controlling of a real robotic arm in a PhysicalTwin approach without any simulation-reality gap. Here, we review the capabilities and limitations of AdaptiX in detail and present three bodies of research based on the framework. AdaptiX can be accessed at https://adaptix.robot-research.de.},
+keywords = {assistive robotics, human–robot interaction, shared user control, augmented reality, virtual reality, mixed reality, visual cues},
+note = {preprint on arXiv: \href{https://arxiv.org/abs/2310.15887}{https://arxiv.org/abs/2310.15887}}
+}
+```
+
 **Git repository**
 
 <aside>
