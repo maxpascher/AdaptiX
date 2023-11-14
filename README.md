@@ -1,9 +1,7 @@
 # AdaptiX – A Transitional XR Framework for Development and Evaluation of Shared Control Applications in Assistive Robotics
 
 <aside>
-💡 The file "Jaco_SkeletalMesh.zip" in "AdaptiX\Content\Blueprints\BP_JacoArm\JacoResources" has to be de-zipped and put into "AdaptiX\Content\Blueprints\BP_JacoArm\JacoResources" as "Jaco_SkeletalMesh.uasset".
-    
-The previous project name, "Breakfast2", is still shown in some figures.
+💡 The previous project name, "Breakfast2", is still shown in some figures.
 
 </aside>
 
