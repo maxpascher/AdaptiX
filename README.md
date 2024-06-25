@@ -9,7 +9,7 @@
 
 **Research Article**
 
-Preprint: [https://doi.org/10.48550/arXiv.2310.15887](https://doi.org/10.48550/arXiv.2310.15887)
+Research Article: [https://doi.org/10.1145/3660243](https://doi.org/10.1145/3660243)
 
 How to cite:
 ```
