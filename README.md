@@ -9,17 +9,18 @@
 
 **Research Article**
 
-Preprint: [https://doi.org/10.48550/arXiv.2310.15887](https://doi.org/10.48550/arXiv.2310.15887)
+Research Article: [https://doi.org/10.1145/3660243](https://doi.org/10.1145/3660243)
 
 How to cite:
 ```
 @article{Pascher.2024adaptix,
 title = {{AdaptiX – A Transitional XR Framework for Development and Evaluation of Shared Control Applications in Assistive Robotics}},
 author = {Max Pascher and Felix Ferdinand Goldau and Kirill Kronhardt and Udo Frese and Jens Gerken},
-doi = {},
-url = {},
+doi = {10.1145/3660243},
+article-number = {244},
 issn = {2573-0142},
 year = {2024},
+month = {6},
 issue_date = {June 2024},
 journal = {Proc. ACM Hum.-Comput. Interact.},
 issn = {2573-0142},
