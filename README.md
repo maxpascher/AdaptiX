@@ -3,6 +3,8 @@
 <aside>
 💡 The previous project name, "Breakfast2", is still shown in some figures.
 
+If you receive any LFS error, please download [Jaco_SkeletalMesh.uasset](https://tu-dortmund.sciebo.de/s/z76mqSp6dChuNkk) and move it into the directory "AdaptiX/Content/Blueprints/BP_JacoArm/JacoResources/."
+
 </aside>
 
 ---
